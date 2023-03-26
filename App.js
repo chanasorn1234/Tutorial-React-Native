@@ -26,6 +26,7 @@ import {
 import Equipment from './component/equipment'
 import HeaderBar from './component/Header'
 import Stat from './component/Stat'
+import Article from './component/Article'
 
 
 function App() {
@@ -68,7 +69,8 @@ function App() {
     <View style={styles.Container}>
       <HeaderBar Name={'สถิติ'}/>
       {/* <Equipment NumAmount={NumAmount} AddAmount={AddAmount} DeleteAmount={DeleteAmount} SaveEquipment={SaveEquipment}/> */}
-      <Stat Time={'>9998'}></Stat>
+      {/* <Stat Time={'>9997'}></Stat> */}
+      <Article/>
       
       
     </View>
